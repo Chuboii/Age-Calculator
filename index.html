@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg"></div>
+  <div class="alert">
+    <h4 class="alrt-txt">Year must not exceed current Year</h4>
+    <button class="back">GO BACK</button>
+  </div>
+<div class="container">
+  <header>
+    <div class="days">
+      <label for="day">DAY</label>
+      <input type="number" name="day" id="day" placeholder="DD">
+    </div>
+
+    <div class="months">
+      <label for="month">MONTH</label>
+      <input type="number" name="day" id="month" placeholder="MM">
+    </div>
+
+    <div class="years">
+      <label for="year">YEAR</label>
+      <input type="number" name="year" id="year" placeholder="YYYY">
+    </div>
+  </header>
+
+ <form action="">
+  <div class="line"></div>
+  <button><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+ </form>
+
+ <div class="results">
+  <div class="y-txt a">
+    <span class="y" id="y">
+      <div class="dash"></div>
+      <div class="dash"></div>
+    </span>
+    <span>years</span>
+  </div>
+
+  <div class="y-txt a">
+    <span class="y" id="m">
+      <div class="dash"></div>
+      <div class="dash"></div>
+    </span>
+    <span>months</span>
+  </div>
+
+  <div class="y-txt a">
+    <span class="y" id="d">
+      <div class="dash"></div>
+      <div class="dash"></div>
+    </span>
+    <span>days</span>
+  </div>
+ </div>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Onyechere Favour</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
