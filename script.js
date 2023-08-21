@@ -37,8 +37,8 @@ form.addEventListener("submit", (e)=>{
     if (mArr.indexOf("-") || dArr.indexOf("-")) {
         let posMonth = mArr.shift()
         dArr.shift()
-        mTxt.innerHTML = posMonth
-        dTxt.innerHTML = dArr
+        mTxt.innerHTML = posMonth.join("")
+        dTxt.innerHTML = dArr.join("")
     }
     else{
         if (month.value > currMth) {
